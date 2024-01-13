@@ -1,0 +1,85 @@
+/*style sheet*/
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+ul, 
+li {
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+.holder {
+   display: flex;
+   margin: 80px 0px 0px 0px;
+   gap: 20px;
+   
+} 
+.bord {
+    align-self: center;
+    flex-direction: column;
+    border-top: 4px solid;
+    border-radius: 10px;
+    display: flex;
+    width: 260px;
+    height: 200px;
+    background-color:white ;
+    padding: 2px 20px 30px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.one {
+    border-color: hsl(180, 62%, 55%);
+} 
+.two {
+    border-color: hsl(0, 78%, 62%);
+}   
+.three {
+    border-color:  hsl(34, 97%, 64%);
+    /*margin-block: 20px;*/
+   
+}
+.four {
+    border-color:  hsl(212, 86%, 64%);
+}
+.span {
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+}
+.first {
+    font-weight: 200;
+    display: block;
+    text-align: center;
+    font-size: 31px;
+    margin-bottom: -25px;
+
+}
+.site {
+    color: hsl(234, 12%, 34%);
+}
+.head {
+    font-weight: 600;
+}
+.p {
+    width: 550px;
+    margin: auto;
+    font-size: 17px;
+}
+img {   
+    align-self: self-end;
+    padding: 30px 0px 0px 0px;
+}
+li >span {
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+    line-height: 1.8;
+}
+.our {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
